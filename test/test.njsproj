@@ -28,13 +28,16 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="client\client\build\precache-manifest.15789ed29a2c0678d72c6ba2726394cd.js" />
+    <Compile Include="client\client\build\precache-manifest.b3a1a71e91fe37c25ccc16d5f4231957.js" />
     <Compile Include="client\client\build\service-worker.js" />
-    <Compile Include="client\client\build\static\js\2.b41502e9.chunk.js" />
-    <Compile Include="client\client\build\static\js\main.3d4f557c.chunk.js" />
+    <Compile Include="client\client\build\static\js\2.69181713.chunk.js" />
+    <Compile Include="client\client\build\static\js\main.194997f3.chunk.js" />
     <Compile Include="client\client\build\static\js\runtime~main.a8a9905a.js" />
     <Compile Include="client\client\src\App\App.js" />
     <Compile Include="client\client\src\App.test.js" />
+    <Compile Include="client\client\src\App\components\loadingSpinner.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="client\client\src\index.js" />
     <Compile Include="client\client\src\serviceWorker.js" />
     <Compile Include="server.js" />
@@ -44,12 +47,11 @@
     <Content Include="client\client\build\favicon.ico" />
     <Content Include="client\client\build\index.html" />
     <Content Include="client\client\build\manifest.json" />
-    <Content Include="client\client\build\static\css\main.2cce8147.chunk.css" />
-    <Content Include="client\client\build\static\css\main.2cce8147.chunk.css.map" />
-    <Content Include="client\client\build\static\js\2.b41502e9.chunk.js.map" />
-    <Content Include="client\client\build\static\js\main.3d4f557c.chunk.js.map" />
+    <Content Include="client\client\build\static\css\main.34de6062.chunk.css" />
+    <Content Include="client\client\build\static\css\main.34de6062.chunk.css.map" />
+    <Content Include="client\client\build\static\js\2.69181713.chunk.js.map" />
+    <Content Include="client\client\build\static\js\main.194997f3.chunk.js.map" />
     <Content Include="client\client\build\static\js\runtime~main.a8a9905a.js.map" />
-    <Content Include="client\client\build\static\media\logo.5d5d9eef.svg" />
     <Content Include="client\client\package.json" />
     <Content Include="client\client\public\favicon.ico" />
     <Content Include="client\client\public\index.html" />
@@ -77,7 +79,7 @@
     <Folder Include="client\client\public\" />
     <Folder Include="client\client\src\" />
     <Folder Include="client\client\src\App\" />
-    <Folder Include="client\client\src\App\pages\" />
+    <Folder Include="client\client\src\App\components\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
